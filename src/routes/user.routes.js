@@ -33,7 +33,7 @@ router.route("/update-user-cover-image").post(
     upload.single("coverImage"),
     updateUserCoverImage
 )
-router.route("/chagepassword").post(
+router.route("/changepassword").post(
     verifyJWT,
     changeCurrentPassword
 )
